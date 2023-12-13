@@ -1,3 +1,58 @@
-img {
-  width:40px;
+body {
+  width: 890px;
 }
+
+/* Navigation Bar */
+
+nav {
+  background-color: #92E1E5;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dog-logo {
+  margin: 0 20px;
+  width: 30px;
+}
+
+.nav-tools {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 25px;
+}
+
+.tool {
+  padding: 0 10px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/park.jpg);
+  align-items: center;
+}
+
+.header-dog {
+  width: 200px;
+  border-radius: 50%;
+  border: solid 4px #408CA7;
+}
+
+button {
+  border: solid 4px #408CA7;
+  background-color: white;
+  color: lightblue;
+  width: 115px;
+  height: 33px;
+}
+
+.header-button {
+  margin: 20px 0 40px;
+}
+
+/* Main Content */
+
+/* Footer */
