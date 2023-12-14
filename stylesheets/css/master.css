@@ -14,20 +14,20 @@ nav {
 
 .dog-logo {
   margin: 5px 19px;
-  width: 24px;
+  width: 22px;
 }
 
 .nav-tools {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 6px;
 }
 
 .tool {
   padding: 0 10px;
   margin: 0px;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 /* Header */
@@ -43,27 +43,27 @@ header {
 h1 {
   font-size: 21px;
   font-weight: 400;
-  margin: 28px 0 14px;
+  margin: 25px 0 14px;
 }
 
 .dog-img {
   border-radius: 50%;
-  border: solid 4px #408CA7;
-  width: 150px;
+  border: solid 2px #408CA7;
 }
 
 .header-dog {
   width: 175px;
+  border: solid 2.5px #408CA7;
 }
 
 button {
-  border: solid 4px #408CA7;
+  border: solid 2.5px #408CA7;
   background-color: white;
   color: #408CA7;
   height: 26px;
   font-family: raleway;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .header-button {
@@ -81,41 +81,42 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px 0 45px;
+  margin: 15px 0 20px;
   width: 290px;
-  height: 420px
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 500;
 }
 
 .main-dog {
-  border: solid 2px #408CA7;
-  margin: 8px 0 23px;
+  border: solid 1.5px #408CA7;
+  margin: 5px 0 17px;
+  width: 125px;
 }
 
 p {
   text-align: center;
-  font-size: 14px;
-  margin: 0 7px 20px;
-  line-height: 90%;
+  font-size: 11px;
+  font-weight: 400;
+  margin: 0 11px 20px;
+  line-height: 93%;
 }
 
-
 /* Footer */
-
 footer {
   background-color: #3F8DA8;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
+  color: white;
 }
 
 h3 {
-  color: white
+  font-size: 11px;
+  font-weight: 400;
+  margin: 10px;
 }
 
 .social-media-logo-container {
@@ -124,5 +125,10 @@ h3 {
 }
 
 .social-media-logo {
-  margin: 10px 20px 30px;
+  margin: 16px 16px 26px;
+  height: 27px;
+}
+
+.github-link {
+  margin: 0 0 12px;
 }
