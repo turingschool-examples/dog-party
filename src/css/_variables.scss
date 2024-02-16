@@ -4,5 +4,14 @@ $secondary-accent-color: #92E0E5;
 @mixin centered() {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
+
+@mixin button() {
+    border: solid 2.7px $main-accent-color;
+    background-color: white;
+    color: #408CA7;
+    height: 26px;
+    font-weight: 400;
+    font-size: 11px;
+}
