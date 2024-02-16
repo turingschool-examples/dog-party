@@ -1,2 +1,8 @@
 $main-accent-color: #3F8DA8;
 $secondary-accent-color: #92E0E5;
+
+@mixin centered() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

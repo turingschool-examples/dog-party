@@ -1,15 +1,26 @@
 @import 'variables';
 
 body {
-  background: url('../../dist/images/park.jpg') center/cover;
-  height: 100vh;
-  width: 100%;
+  width: 740px;
+  nav {
+    background-color: $secondary-accent-color;
+  }
+  
+  header {
+    @include centered();
+    
+  }
+  
+  main {
+    
+  }
+  
+  footer {
+    @include centered();
+    
+  }
 }
 
-nav {
-  // Example of using a variable:
-  background-color: $secondary-accent-color;
-}
 
 .dog-icon {
   width: 50px;
