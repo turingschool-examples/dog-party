@@ -19,6 +19,7 @@ nav {
   
 }
 
+
 button {
   background-color: white;
   color: $main-accent-color;
@@ -47,4 +48,9 @@ button {
   width: 50px;
   margin-left: 25px;
   margin-top: 5px;
+}
+
+.dog1 {
+  border:5px solid $main-accent-color;
+  border-radius: 50%;
 }
