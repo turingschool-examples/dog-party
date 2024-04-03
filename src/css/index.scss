@@ -17,8 +17,15 @@ nav {
   // Example of using a variable:
   background-color: $secondary-accent-color;
   
-  // display:flex
 }
+
+button {
+  background-color: white;
+  color: $main-accent-color;
+  border:3px solid $main-accent-color;
+}
+
+
 .nav-words {
   display:flex;
   justify-content: flex-end;
@@ -29,16 +36,12 @@ nav {
 .how,
 .what,
 .facts {
-  // display: flex;
-  // float: inline-end;
   margin-left: 20px;
-font-size: large;
-color: white;
+  font-size: large;
+  color: white;
 }
 
-// .what {
-//   margin-left: 15px;
-// }
+
 
 .dog-icon {
   width: 50px;
