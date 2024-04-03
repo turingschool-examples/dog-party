@@ -2,6 +2,8 @@
 body {
   display:flex;
   flex-direction: column;
+  margin:0
+
   
 }
 .what-are-dogs {
@@ -14,9 +16,32 @@ body {
 nav {
   // Example of using a variable:
   background-color: $secondary-accent-color;
-  margin: 0;
+  
+  // display:flex
 }
+.nav-words {
+  display:flex;
+  justify-content: flex-end;
+  float: inline-end;
+  margin-right: 30px;
+}
+
+.how,
+.what,
+.facts {
+  // display: flex;
+  // float: inline-end;
+  margin-left: 20px;
+font-size: large;
+color: white;
+}
+
+// .what {
+//   margin-left: 15px;
+// }
 
 .dog-icon {
   width: 50px;
+  margin-left: 25px;
+  margin-top: 5px;
 }
