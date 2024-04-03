@@ -8,15 +8,19 @@ body {
 }
 .what-are-dogs {
   background: url('../../dist/images/park.jpg') center/cover;
-  height: 45vh;
+  height: 50vh;
   width: 100%;
-  margin-top:0;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-size: x-large;
 }
 
+.dog-site-header {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
 
 nav {
   // Example of using a variable:
@@ -58,4 +62,5 @@ button {
 .dog1 {
   border:5px solid $main-accent-color;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
