@@ -70,3 +70,15 @@ button {
   align-items: center;
   flex-direction: row;
 }
+
+.dog2 {
+  border:5px solid $main-accent-color;
+  border-radius: 50%;
+}
+
+.dog3,
+.dog4 {
+  border:5px solid $main-accent-color;
+  border-radius: 50%;
+  height:225px
+}
