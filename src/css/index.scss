@@ -1,16 +1,84 @@
 @import 'variables';
-
 body {
+  display:flex;
+  flex-direction: column;
+  margin:0
+
+  
+}
+.what-are-dogs {
   background: url('../../dist/images/park.jpg') center/cover;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+}
+
+.dog-site-header {
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 nav {
   // Example of using a variable:
   background-color: $secondary-accent-color;
+  
 }
+
+
+button {
+  background-color: white;
+  color: $main-accent-color;
+  border:3px solid $main-accent-color;
+}
+
+
+.nav-words {
+  display:flex;
+  justify-content: flex-end;
+  float: inline-end;
+  margin-right: 30px;
+}
+
+.how,
+.what,
+.facts {
+  margin-left: 20px;
+  font-size: large;
+  color: white;
+}
+
+
 
 .dog-icon {
   width: 50px;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.dog1 {
+  border:5px solid $main-accent-color;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.how-what-facts {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dog2 {
+  border:5px solid $main-accent-color;
+  border-radius: 50%;
+}
+
+.dog3,
+.dog4 {
+  border:5px solid $main-accent-color;
+  border-radius: 50%;
+  height:225px
 }
