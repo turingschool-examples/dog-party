@@ -50,7 +50,7 @@ body {
 /*CONTAINER-ONE*/
 .container-one {
     margin: 0;
-    height: 46vh;
+    height: 38vh;
     background-image: url("./images/park.jpg");
     background-size: cover;
     background-position: center top;
@@ -132,4 +132,40 @@ body {
     font-size: 19px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+/* FOOTER */
+footer {
+    height: 15vh;
+    width: 100%;
+    background-color: var(--main-accent-color);
+    font-family: var(--given-font);
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: var(--given-font);
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+.socialmedia-icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.footer-link {
+    margin-bottom: 30px;
+    text-decoration: underline;
 }
