@@ -8,7 +8,9 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: var(--given-font)
+    font-family: var(--given-font);
+    position: relative;
+    padding: 0;
 }
 
 /* NAVBAR */
@@ -17,10 +19,10 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: var(--secondary-accent-color);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-right: 40px;
-    padding-left: 40px;
+    padding-left: 30px;
     margin: 0;
 }
 
@@ -30,15 +32,15 @@ body {
 }
 
 .dog-icon {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 .nav-menu {
     list-style: none;
     display: flex;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
@@ -50,7 +52,7 @@ body {
 /*CONTAINER-ONE*/
 .container-one {
     margin: 0;
-    height: 38vh;
+    height: 35vh;
     background-image: url("./images/park.jpg");
     background-size: cover;
     background-position: center top;
@@ -68,15 +70,16 @@ body {
 .container-one-title {
     padding: 25px;
     font-family: var(--given-font);
-    font-size: 35px;
+    font-size: 27px;
     font-weight: 400;
 }
 
 .main-dog {
+    height: 250px;
+    width: 250px;
     border: 4px solid;
     border-radius: 50%;
     border-color: var(--main-accent-color);
-    margin-bottom: 20px;
 }
 
 /* COMMON BUTTONS*/
@@ -87,7 +90,7 @@ body {
     background-color: white;
     padding: 6px 10px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     font-family: var(--given-font)
 }
 
@@ -96,7 +99,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 50px;
+    padding: 30px;
 }
 
 .dog-section {
@@ -129,7 +132,7 @@ body {
 
 .description {
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -147,6 +150,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: absolute;
 }
 
 .footer-title {
