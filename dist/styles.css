@@ -1,17 +1,17 @@
 :root {
     --main-accent-color: #3F8DA8;
     --secondary-accent-color: #92E0E5;
+    --given-font: "Raleway", sans-serif;
 }
 
-html,
 body {
-    box-sizing: border-box;
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--given-font)
 }
 
+/* NAVBAR */
 .navbar {
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@ body {
     padding-bottom: 10px;
     padding-right: 40px;
     padding-left: 40px;
+    margin: 0;
 }
 
 .navbar-iconholder {
@@ -44,4 +45,45 @@ body {
 
 .nav-item {
     margin-left: 30px;
+}
+
+/*CONTAINER-ONE*/
+.container-one {
+    margin: 0;
+    height: 40vh;
+    background-image: url("./images/park.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-one-title {
+    margin: 0;
+}
+
+.container-one-title {
+    padding: 25px;
+    font-family: var(--given-font);
+    font-size: 35px;
+}
+
+.main-dog {
+    border: 4px solid;
+    border-radius: 50%;
+    border-color: var(--main-accent-color);
+}
+
+.container-one-button {
+    border: 5px solid;
+    border-color: var(--main-accent-color);
+    color: var(--main-accent-color);
+    background-color: white;
+    padding: 6px;
+    font-weight: 500;
+    font-size: 18px;
 }
