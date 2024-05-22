@@ -50,7 +50,7 @@ body {
 /*CONTAINER-ONE*/
 .container-one {
     margin: 0;
-    height: 40vh;
+    height: 46vh;
     background-image: url("./images/park.jpg");
     background-size: cover;
     background-position: center top;
@@ -59,7 +59,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .container-one-title {
@@ -70,20 +69,67 @@ body {
     padding: 25px;
     font-family: var(--given-font);
     font-size: 35px;
+    font-weight: 400;
 }
 
 .main-dog {
     border: 4px solid;
     border-radius: 50%;
     border-color: var(--main-accent-color);
+    margin-bottom: 20px;
 }
 
-.container-one-button {
-    border: 5px solid;
+/* COMMON BUTTONS*/
+.doggy-button {
+    border: 4px solid;
     border-color: var(--main-accent-color);
     color: var(--main-accent-color);
     background-color: white;
-    padding: 6px;
+    padding: 6px 10px;
     font-weight: 500;
     font-size: 18px;
+    font-family: var(--given-font)
+}
+
+/*CONTAINER-TWO*/
+.container-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.dog-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.How,
+.What,
+.Facts {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.DogOne,
+.DogTwo,
+.DogThree {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: var(--main-accent-color);
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    font-size: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
