@@ -1,15 +1,113 @@
-@import 'variables';
+/* @import 'variables'; */
 
 body {
-  background: url('../../dist/images/park.jpg') center/cover;
   height: 100vh;
   width: 100%;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-  background-color: var(--secondary-accent-color);
+  display: flex;
+  justify-content: space-between;
+  background-color: #92E0E5;
+  align-items: center;
 }
 
 .dog-icon {
-  width: 50px;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 1rem;
+  color: white;
+}
+
+.parent-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: url('../../dist/images/park.jpg') center/cover;
+  height: 35rem;
+  width: 100%;
+}
+
+.splash img {
+  height: 18rem;
+  width: 18rem;
+}
+
+button {
+  height: 3rem;
+  width: 10rem;
+  color: #3F8DA8;
+  background-color: white;
+  border: 4px solid #3F8DA8;
+  font-size: 1.2rem;
+}
+
+img {
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+  border: 3px solid #3F8DA8;
+  ;
+}
+
+.column-section {
+  display: flex;
+}
+
+.triple-column {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 4rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10rem;
+  width: 100%;
+  background-color: #3F8DA8;
+}
+
+.footer img {
+  border: none;
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.footer p {
+  color: white;
+  margin-left:7rem;
+}
+
+.github-link {
+  color: white;
+  margin-top:1rem;
 }
